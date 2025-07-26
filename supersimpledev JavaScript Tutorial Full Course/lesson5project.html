@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      lesson 5 project cart quantity
+    </title>
+  </head>
+  <body>
+    <p>Cart Quantity</p>
+    <button onclick="alert(cartquantity);">
+      Show Quantity
+    </button>
+    <button onclick="cartquantity ++ ; alert(cartquantity);">
+      Add to cart
+    </button>
+    <button onclick="cartquantity = cartquantity + 2; alert(cartquantity)">
+      +2
+    </button>
+    <button onclick="cartquantity = cartquantity + 3; alert(cartquantity);">
+      +3
+    </button>
+    <button onclick="cartquantity = 0; alert('cart reset sucessfully');">
+      reset cart
+    </button>
+    <script>
+      let cartquantity = 0;
+    </script>
+  </body>
+</html>
