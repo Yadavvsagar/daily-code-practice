@@ -1,0 +1,4 @@
+1a - alert('good morning);
+1b - alert('sagar yadav');
+1c - document.body.innerHTML = 'hello world';
+ 
